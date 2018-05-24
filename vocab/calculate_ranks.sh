@@ -10,4 +10,4 @@ fi
 
 FILE=$1
 
-cat $FILE | awk '{for (i = 1; i <= NF; i++) {print $i}}' | sort | uniq -c | sort -r
+cat $FILE | awk '{for (i = 1; i <= NF; i++) {print $i}}' | sort | uniq -c | sort -rn
