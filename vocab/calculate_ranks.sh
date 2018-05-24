@@ -1,5 +1,7 @@
 #!/bin/bash
 
+### Run this script on a dataset file. It gives the counts of all words ###
+
 if [ $# -eq 0 ]; then
     echo "No arguments provided"
     echo "Correct Usage: calculate_ranks.sh [file]"
